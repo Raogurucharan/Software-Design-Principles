@@ -14,6 +14,7 @@ Defining the SOLID principles in layman's terms :
 
 4. Interface Segregation
      Make interfaces (parent abstract classes) more specific, rather than generic.
+     we can do this using anathor way by also using Composition by creataing seperate classes.
         e.g. Create more interfaces (classes) if needed and/or provide objects to constructors.
 
 5. Dependency Inversion
