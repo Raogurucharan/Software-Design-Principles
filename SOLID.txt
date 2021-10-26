@@ -20,5 +20,5 @@ Defining the SOLID principles in layman's terms :
     Make classes depend on abstract classes rather than non-abstract classes.
         e.g. Make classes inherit from abstract classes.
 
-
+NOTE:
 An abstract class can be considered as a blueprint for other classes. It allows you to create a set of methods that must be created within any child classes built from the abstract class.
