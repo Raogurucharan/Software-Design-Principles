@@ -83,6 +83,5 @@ order.add_item("USB cable", 2, 5)
 
 print(order.total_price())
 authorizer = SMSAuthorizer()
-# authorizer.verify_code(465839)
 processor = PaypalPaymentProcessor("hi@arjancodes.com", authorizer)
 processor.pay(order)
